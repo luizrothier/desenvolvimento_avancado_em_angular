@@ -42,10 +42,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Para rodar ng g c
 npm run-script ng g c demos\reactiveForms\cadastro
 
-### Aula 4, Seção 2:
+### Seção 2, Aula 4 ()
 - A definição de class para um mdel deve ser usada qdo se deseja que esta classe tenha uma comportamente na classe. No entanto, se a classe for puramente um templste, deve-se preferencialente utilzar a Interface;
 
-### Aula 6 ("Validações customizadas de formulário"), Seção 2:
+### Seção 2, Aula 6 ("Validações customizadas de formulário")
 - Instalação do ng-brazil (npmjs.com/package/ng-brazil)
 ```
 $ npm install ng-brazil
@@ -58,6 +58,26 @@ $ npm install ng2-validation
 ```
 
 Obs.: Esta aula, e a anterior TEM DE SER revistas!!!
+
+### Seção 6, Aula 1 ("Providers - UseClass")
+- Para compilar, tem que comentar o construtor no BarComponent;
+
+### Seção 6, Aula 2 ("Providers UseValue - NgModules - Injection Token")
+- Conceitos complexos. Rever!
+- Qual é o propósito de se usar Injection Tokens no Angular?
+- Apresentou erro, pois desfez o comentário da aula 1 da seção (verificar depois)
+
+### Seção 6, Aula 3 ("Providers - UseFactory")
+- Conceitos complexos. Rever!
+- Design pattern: uselocator?
+- Apresentou erro, pois desfez o comentário da aula 1 da seção (verificar depois)
+
+### Seção 6, Aula 4 ("Providers - UseExisting")
+- Conceitos complexos. Rever!
+- Apresentou erro, pois desfez o comentário da aula 1 da seção (verificar depois)
+
+### Seção 6, Aula 5 ("ngZones")
+- Não foi possível verificar, pois os erros das aulas anteriores gerou erro que quebrou o exemplo;
 
 ### Procedimento exibido pelo próprio GitHub quando da criação do repositório
 …or create a new repository on the command line

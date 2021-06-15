@@ -1,3 +1,4 @@
+import { BarComponent } from './demos/bar-di-zones/bar.component';
 import { AuthGuard } from './services/app.guard';
 import { NotfoundComponent } from './navegacao/notfound/notfound.component';
 import { NgModule } from '@angular/core';
@@ -17,6 +18,7 @@ export const rootRouterConfig: Routes = [
             loadChildren: () => import('./demos/arquitetura-componentes/produto.module')
             .then(m => m.ProdutoModule)},
     { path: 'filmes', component: FilmesComponent },
+    { path: 'bar', component: BarComponent },
     { path: 'admin',
             loadChildren: () => import('./admin/admin.module')
             .then(m => m.AdminModule),
