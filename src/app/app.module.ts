@@ -1,3 +1,4 @@
+import { TodoModule } from './demos/todo-list/todo.module';
 import { ImageFormaterPipe } from './demos/pipes/filmes/image.pipe';
 
 import { AuthGuard } from './services/app.guard';
@@ -49,7 +50,8 @@ export const BAR_PROVIDERS: Provider[] = [
     BarModule.forRoot({
       unidadeId: 1000,
       unidadeToken: 'eca938c99a0e9ff91029dc'
-    })
+    }),
+    TodoModule
   ],
   providers: [
     AuthGuard,

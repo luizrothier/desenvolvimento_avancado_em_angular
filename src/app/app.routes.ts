@@ -8,6 +8,7 @@ import { SobreComponent } from './institucional/sobre/sobre.component';
 import { CadastroComponent } from './demos/reactiveForms/cadastro/cadastro.component';
 import { CadastroGuard } from './services/cadastro.guard';
 import { FilmesComponent } from './demos/pipes/filmes/filmes.component';
+import { TodoComponent } from './demos/todo-list/todo.component';
 
 export const rootRouterConfig: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -19,6 +20,7 @@ export const rootRouterConfig: Routes = [
             .then(m => m.ProdutoModule)},
     { path: 'filmes', component: FilmesComponent },
     { path: 'bar', component: BarComponent },
+    { path: 'todo', component: TodoComponent },
     { path: 'admin',
             loadChildren: () => import('./admin/admin.module')
             .then(m => m.AdminModule),

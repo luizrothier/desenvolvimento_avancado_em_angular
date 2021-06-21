@@ -79,6 +79,45 @@ Obs.: Esta aula, e a anterior TEM DE SER revistas!!!
 ### Seção 6, Aula 5 ("ngZones")
 - Não foi possível verificar, pois os erros das aulas anteriores gerou erro que quebrou o exemplo;
 
+### Seção 7, Aula 1 ("Introdução ao State Management")
+- rxjs-dev.firebaseapp.com
+- ngrx.io
+- redux.js.org (há um repositório Git específico de Redux para o Angular)
+- netbasal.gitbook.io/akita/
+
+### Seção 7, Aula 2 ("Setup da estrutura")
+- JSON Server (https://www.npmjs.com/package/json-server)
+- Obs.: Instalação LOCAL (npm i json-server). Para rodar ==> npx json-server (vide https://stackoverflow.com/questions/55547572/json-server-is-not-recognized-as-an-internal-or-external-command , a partir da pesquisa "how to install json server locally")
+- Json-server no GitHub: https://github.com/typicode/json-server
+
+### Seção 7, Aula 3 ("Utilizando um serviço")
+- Referência à documentação do Angular: "Naming conventions for observables"
+- Em quais casos é possível, e em quais não, usar uma propriedade Observable ao invés de se fazer o Subscribe?
+
+### Seção 7, Aula 4 ("Configuração de State e Store")
+- Conceitos complexos: Subject e BehaviorSubject
+- Uso do TypeScript 1: operador Spread
+```
+set(name: string, state: any) {
+	this.subject.next({
+		...this.value, [name]: state
+	})
+}
+```
+- Uso do TypeScript 2: operador Pipe
+
+- Uso do TypeScript 3: operador Map
+
+- Uso do TypeScript 4: operador Tap
+```
+getToDoList$: Observable<Task[]> = this.http
+	.get<Task[]>('http://localhost:3000/todolist')
+	.pipe(
+		tap(next => this.store.set('todolist',next)));
+```
+
+### Seção 7, Aula 5 ("Gerenciando eventos de mudança de estado")
+- Obs.: Conceitos complexos. Reassistir essa e a aula anterior;
 ### Procedimento exibido pelo próprio GitHub quando da criação do repositório
 …or create a new repository on the command line
 echo "# desenvolvedorIO-desenvolvimento_avancado_em_angular" >> README.md
