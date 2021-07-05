@@ -1,3 +1,4 @@
+import { ContadorComponent } from './demos/contador/contador.component';
 import { TodoModule } from './demos/todo-list/todo.module';
 import { ImageFormaterPipe } from './demos/pipes/filmes/image.pipe';
 
@@ -36,7 +37,8 @@ export const BAR_PROVIDERS: Provider[] = [
     CadastroComponent,
     FilmesComponent,
     FileSizePipe,
-    ImageFormaterPipe
+    ImageFormaterPipe,
+    ContadorComponent
   ],
   imports: [
     BrowserModule,

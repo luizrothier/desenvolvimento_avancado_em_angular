@@ -9,6 +9,7 @@ import { CadastroComponent } from './demos/reactiveForms/cadastro/cadastro.compo
 import { CadastroGuard } from './services/cadastro.guard';
 import { FilmesComponent } from './demos/pipes/filmes/filmes.component';
 import { TodoComponent } from './demos/todo-list/todo.component';
+import { ContadorComponent } from './demos/contador/contador.component';
 
 export const rootRouterConfig: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -21,6 +22,7 @@ export const rootRouterConfig: Routes = [
     { path: 'filmes', component: FilmesComponent },
     { path: 'bar', component: BarComponent },
     { path: 'todo', component: TodoComponent },
+    { path: 'contador', component: ContadorComponent },
     { path: 'admin',
             loadChildren: () => import('./admin/admin.module')
             .then(m => m.AdminModule),
