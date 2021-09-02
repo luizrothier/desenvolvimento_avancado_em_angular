@@ -191,11 +191,11 @@ etc.
 - Última aula da trilha de "Desenvolvimento Avançado em Angular" que foi gravada neste repositório. A seção seguinte, "Projeto Final", foi para o repositório de mesmo nome no GitHub.
 - Retificação do comando para invocar os testes e2e, em 02set21
 ```
-	npm run-script e2e --suite=cadastro ==> ESTE FUNCIONA!!!
-	
-ao invés de
+	npm run e2e --suite=cadastro ==> ESTE FUNCIONA!!!
 
-	npm run e2e --suite=cadastro ==> NÃO FUNCIONA!
+ao invés de
+	
+	npm run-script e2e --suite=cadastro ==> NÃO FUNCIONA!
 ```
 
 
