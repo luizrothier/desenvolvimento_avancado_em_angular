@@ -140,13 +140,13 @@ npm test
 ### Seção 8 ("Testes de Unidade"), Aula 3 ("Testes em Pipes")
 - Rever a aula;
 - Após a conclusão da aula, fazer o seguinte:
-1 - Incluir import { RouterTestingModule } from '@angular/router/testing'; em app.component.spec.ts
-2 - Sobrescrever os seguintes arquivos json do projeto por aqueles fornecidos como recurso do treinamento: angular.json, package-lock.json, e package.json;
-3 - Incluir os seguintes arquivos fornecidos como recurso (diretório raiz): karma.conf.js, todo.db.json, tsconfig.spec.json, tslint.json;
-4 - Incluir o arquivo test.ts, fornecido como recursos, no mesmo nível do siretório src;
-5 - Remover a pasta node_modules;
-6 - Rodar npm i;
-7 - Rodar npm test
+	- Incluir import { RouterTestingModule } from '@angular/router/testing'; em app.component.spec.ts
+	- Sobrescrever os seguintes arquivos json do projeto por aqueles fornecidos como recurso do treinamento: angular.json, package-lock.json, e package.json;
+	- Incluir os seguintes arquivos fornecidos como recurso (diretório raiz): karma.conf.js, todo.db.json, tsconfig.spec.json, tslint.json;
+	- Incluir o arquivo test.ts, fornecido como recursos, no mesmo nível do siretório src;
+	- Remover a pasta node_modules;
+	- Rodar npm i;
+	- Rodar npm test
 
 ### Seção 8 ("Testes de Unidade"), Aula 4 ("Testes em Componentes")
 - Rever a aula;
