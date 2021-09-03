@@ -31,15 +31,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Minhas Notas
 ## Procedimento usado para criar o repositório e o workspace local
 ... O que funcionou!
-1) Criar o diretório, descompactar os arquivos, e rodar npm i (que cria o node_modules);
-2) Criar o repositório desenvolvimento_avancado_em_angular no GitHub;
-3) Em uma janela de comando, posicionada no diretório do projeto, rodar os comandos abaixo (Obs.: Não executar as partes específicas do procedimento criado automaticamente para gerar o README.md, pois o projeto já possui esse arquivo) 
-	1- git init
-	2- git add -A
-	c) git commit -m "first commit"
-	d) git branch -M main
-	e) git remote add origin https://github.com/luizrothier/desenvolvimento_avancado_em_angular.git
-	f) git push -u origin main
+1. Criar o diretório, descompactar os arquivos, e rodar npm i (que cria o node_modules);
+2. Criar o repositório desenvolvimento_avancado_em_angular no GitHub;
+3. Em uma janela de comando, posicionada no diretório do projeto, rodar os comandos abaixo (Obs.: Não executar as partes específicas do procedimento criado automaticamente para gerar o README.md, pois o projeto já possui esse arquivo) 
+	1. git init
+	2. git add -A
+	3. git commit -m "first commit"
+	4. git branch -M main
+	5. git remote add origin https://github.com/luizrothier/desenvolvimento_avancado_em_angular.git
+	6. git push -u origin main
 	
 Para rodar ng g c (com o Angular instalado apenas localmente):
 ```
